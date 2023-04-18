@@ -5,16 +5,17 @@
   let loadNumber = 0
   let loadIntro = 0
 
-  let int = setInterval(blurring, 100)
+  let int = setInterval(blurring, 30)
 
   function blurring() {
 
     loadNumber++
 
-    if (loadNumber > 99) {
+    if (loadNumbeir > 99) {
     clearInterval(int)
-    introBlur()
-  }
+    
+  print(intro);
+}
 }
   function introBlur() {
 
