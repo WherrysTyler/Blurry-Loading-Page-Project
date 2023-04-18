@@ -20,7 +20,7 @@
 
     loadIntro++
 
-    if (loadIntro > 100) {
+    if (loadIntro > 99) {
       clearInterval(int)
     }
   }
