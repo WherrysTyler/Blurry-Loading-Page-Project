@@ -17,21 +17,21 @@
   print(intro);
 }
 }
-  function introBlur() {
+  // function introBlur() {
 
-    loadIntro++
+  //   loadIntro++
 
-    if (loadIntro > 99) {
-      clearInterval(int)
-    }
-  }
+  //   if (loadIntro > 99) {
+  //     clearInterval(int)
+  //   }
+  // }
 
 
   loadText.innerText = `${loadNumber}%`
   loadText.style.opacity = scale(loadNumber, 0, 100, 1, 0);
-  intro1.style.opacity = scale(loadIntro, 100, 0, 1, 0);
+  intro1.style.opacity = scale(loadNumber, 100, 0, 1, 0);
   // intro1.innerText = `${load}%`
-  intro1.style.filter = `blur(${scale(loadIntro, 0, 100, 20, 0)})`
+  intro1.style.filter = `blur(${scale(loadNumber, 0, 100, 20, 0)})`
   bg.style.filter = `blur(${scale(loadNumber, 0, 100, 20, 0)}px)`
 
 
