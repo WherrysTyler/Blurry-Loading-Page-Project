@@ -15,14 +15,6 @@
     
 }
 }
-  // function introBlur() {
-
-  //   loadIntro++
-
-  //   if (loadIntro > 99) {
-  //     clearInterval(int)
-  //   }
-  // }
 
 
   loadText.innerText = `${load}%`
