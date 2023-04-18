@@ -4,7 +4,7 @@
 
   let load = 0
 
-  let int = setInterval(blurring, 60)
+  let int = setInterval(blurring, 100)
 
   function blurring() {
 
@@ -18,8 +18,8 @@
   loadText.style.opacity = scale(load, 0, 100, 1, 0);
   intro1.style.opacity = scale(load, 100, 0, 1, 0);
   // intro1.innerText = `${load}%`
-  intro1.style.filter = `blur(${scale(load, 0, 100, 40, 0)})`
-  bg.style.filter = `blur(${scale(load, 0, 100, 80, 0)}px)`
+  intro1.style.filter = `blur(${scale(load, 0, 100, 60, 0)})`
+  bg.style.filter = `blur(${scale(load, 0, 100, 90, 0)}px)`
 }
 
 
