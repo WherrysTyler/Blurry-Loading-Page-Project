@@ -1,6 +1,6 @@
  const loadText = document.querySelector('.loading-text')
   const bg = document.querySelector('.bg')
-  const intro = document.querySelector('.intro')
+  const intro1 = document.querySelector('.intro')
 
   let load = 0
 
@@ -16,9 +16,9 @@
 
   loadText.innerText = `${load}%`
   loadText.style.opacity = scale(load, 0, 100, 1, 0);
-  intro.style.opacity = scale(load, 0, 100, 1, 0);
-  intro.innerText = `${load}%`
-  intro.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
+  intro1.style.opacity = scale(load, 0, 100, 1, 0);
+  intro1.innerText = `${load}%`
+  intro1.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
   bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 }
 
