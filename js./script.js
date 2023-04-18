@@ -18,7 +18,7 @@
   loadText.style.opacity = scale(load, 0, 100, 1, 0);
   // intro1.style.opacity = scale(load, 100, 0, 1, 0);
   // intro1.innerText = `${load}%`
-  intro1.style.filter = `blur(${scale(load, 0, 100, 80, 0)})`
+  intro1.style.filter = `blur(${scale(load, 0, 100, 60, 0)})`
   bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 }
 
