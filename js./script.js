@@ -8,9 +8,9 @@
 
   function blurring() {
 
-    loadNumber++
+    load++
 
-    if (loadNumber > 99) {
+    if (load > 99) {
     clearInterval(int)
     
 }
