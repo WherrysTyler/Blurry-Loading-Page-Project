@@ -2,8 +2,7 @@
   const bg = document.querySelector('.bg')
    const intro1 = document.querySelector('.intro')
 
-  let loadNumber = 0
-  let loadIntro = 0
+  let load = 0
 
   let int = setInterval(blurring, 30)
 
@@ -14,7 +13,6 @@
     if (loadNumber > 99) {
     clearInterval(int)
     
-  print(intro);
 }
 }
   // function introBlur() {
@@ -27,12 +25,12 @@
   // }
 
 
-  loadText.innerText = `${loadNumber}%`
-  loadText.style.opacity = scale(loadNumber, 0, 100, 1, 0);
-  intro1.style.opacity = scale(loadNumber, 100, 0, 1, 0);
+  loadText.innerText = `${load}%`
+  loadText.style.opacity = scale(load, 0, 100, 1, 0);
+  intro1.style.opacity = scale(load, 100, 0, 1, 0);
   // intro1.innerText = `${load}%`
-  intro1.style.filter = `blur(${scale(loadNumber, 0, 100, 40, 0)})`
-  bg.style.filter = `blur(${scale(loadNumber, 0, 100, 40, 0)}px)`
+  intro1.style.filter = `blur(${scale(load, 0, 100, 40, 0)})`
+  bg.style.filter = `blur(${scale(load, 0, 100, 40, 0)}px)`
 
 
 
