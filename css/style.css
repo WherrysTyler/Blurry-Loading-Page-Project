@@ -33,6 +33,9 @@ body {
   filter: blur(10px)
 }
 .loading-text{
-  font-size: 50px;
+  font-size: 50px opacity: 0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; ;
   color: #fff;
+}
 }
